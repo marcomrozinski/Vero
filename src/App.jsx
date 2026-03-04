@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-do
 import Dashboard from "./pages/Dashboard";
 import KPIs from "./pages/KPIs";
 import Transactions from "./pages/Transactions";
-import AddTransactionModal from "./components/AddTransactionModal";
+import AddTransactionModal from "./components/AddTransactionModal.jsx";
 import "./App.css";
 
 export default function App() {
